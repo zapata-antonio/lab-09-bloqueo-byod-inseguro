@@ -52,7 +52,20 @@ Si el dispositivo no está enrolado o no cumple, el acceso se bloquea.
 - [x] Se creó una política de Acceso Condicional para BYOD no conforme
 - [x] El usuario de pruebas fue bloqueado aunque la contraseña era correcta
 - [x] El bloqueo se validó en Sign-in logs (Conditional Access)
+---
 
+## Escenario adicional (positivo): acceso permitido desde dispositivo compliant
+Para completar el caso de uso BYOD, configuré una directiva de cumplimiento en Intune para que un dispositivo Windows enrolado pueda marcarse como *compliant*.  
+
+---
+
+## Evidencias (escenario positivo)
+
+### 04) Directiva de cumplimiento (Intune) creada y asignada al grupo de pruebas
+[<img src="images/04-intune-compliance-policy-assignment.png" width="800">](images/04-intune-compliance-policy-assignment.png)
+
+### 05) Acceso permitido desde dispositivo compliant (Office 365)
+[<img src="images/05-access-allowed-compliant-device.png" width="800">](images/05-access-allowed-compliant-device.png)
 ---
 
 ## Qué explicaría en una entrevista
